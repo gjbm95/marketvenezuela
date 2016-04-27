@@ -34,7 +34,7 @@
 	left:70%;
 	top:0%;
 	width:23%;
-	height:111px;
+	height:196px;
 	z-index:4;
 }
 #apDiv5 {
@@ -77,7 +77,7 @@ body,td,th {
 	position:absolute;
 	left:71%;
 	top:49px;
-	width:229px;
+	width:152px;
 	height:22px;
 	z-index:8;
 }
@@ -93,7 +93,7 @@ body,td,th {
 	position:absolute;
 	left:71%;
 	top:89px;
-	width:230px;
+	width:155px;
 	height:22px;
 	z-index:10;
 }
@@ -104,12 +104,12 @@ body,td,th {
 	width:85%;
 	height:313px;
 	z-index:11;
-	background-color: #CCCCCC;
+	background-color: #FFFFFF;
 }
 #apDiv12 {
 	position:absolute;
 	left:8%;
-	top:558px;
+	top:570px;
 	width:85%;
 	height:45px;
 	z-index:12;
@@ -126,7 +126,7 @@ body,td,th {
 #apDiv14 {
 	position:absolute;
 	left:0%;
-	top:946px;
+	top:1090px;
 	width:100%;
 	height:234px;
 	z-index:14;
@@ -135,7 +135,7 @@ body,td,th {
 #apDiv15 {
 	position:absolute;
 	left:0%;
-	top:947px;
+	top:1090px;
 	width:100%;
 	height:44px;
 	z-index:15;
@@ -144,10 +144,119 @@ body,td,th {
 #apDiv16 {
 	position:absolute;
 	left:8%;
-	top:997px;
-	width:225px;
+	top:1140px;
+	width:134px;
 	height:149px;
 	z-index:16;
+}
+#apDiv17 {
+	position:absolute;
+	left:29%;
+	top:1140px;
+	width:556px;
+	height:58px;
+	z-index:17;
+}
+.Estilo3 {font-size: 10px}
+.Estilo4 {font-size: 18px}
+.Estilo5 {font-size: 18}
+.Estilo6 {color: #FFFFFF}
+.Estilo7 {font-size: 18; color: #FFFFFF; }
+#apDiv18 {
+	position:absolute;
+	left:26%;
+	top:1280px;
+	width:685px;
+	height:31px;
+	z-index:18;
+}
+#apDiv19 {
+	position:absolute;
+	left:8%;
+	top:607px;
+	width:401px;
+	height:239px;
+	z-index:19;
+}
+#apDiv20 {
+	position:absolute;
+	left:38%;
+	top:607px;
+	width:397px;
+	height:237px;
+	z-index:20;
+}
+#apDiv21 {
+	position:absolute;
+	left:939px;
+	top:118px;
+	width:262px;
+	height:33px;
+	z-index:21;
+}
+#apDiv22 {
+	position:absolute;
+	left:71%;
+	top:138px;
+	width:288px;
+	height:20px;
+	z-index:21;
+}
+#apDiv23 {
+	position:absolute;
+	left:71%;
+	top:162px;
+	width:286px;
+	height:22px;
+	z-index:22;
+}
+#apDiv24 {
+	position:absolute;
+	left:84%;
+	top:70px;
+	width:112px;
+	height:44px;
+	z-index:23;
+}
+#apDiv25 {
+	position:absolute;
+	left:1093px;
+	top:88px;
+	width:121px;
+	height:26px;
+	z-index:23;
+}
+#apDiv26 {
+	position:absolute;
+	left:85%;
+	top:90px;
+	width:104px;
+	height:29px;
+	z-index:23;
+}
+#apDiv27 {
+	position:absolute;
+	left:67.9%;
+	top:607px;
+	width:340px;
+	height:476px;
+	z-index:25;
+}
+#apDiv28 {
+	position:absolute;
+	left:8%;
+	top:844px;
+	width:404px;
+	height:231px;
+	z-index:26;
+}
+#apDiv29 {
+	position:absolute;
+	left:38%;
+	top:844px;
+	width:384px;
+	height:238px;
+	z-index:24;
 }
 -->
 </style>
@@ -157,9 +266,10 @@ body,td,th {
 <div id="apDiv1"><img src="../Imagenes/barra_azul.png" width="100%" height="214" /></div>
 <div id="apDiv2"><img src="../Imagenes/Logo - Proyecto.png" width="202" height="198" /></div>
 <div id="apDiv3"><img src="../Imagenes/barra_menu.png" width="100%" height="39" /></div>
-<div id="apDiv4"><img src="../Imagenes/barra_menu.png" width="100%" height="121" /></div>
+<div id="apDiv4"><img src="../Imagenes/barra_menu.png" width="100%" height="191" /></div>
 <div class="Estilo1" id="apDiv5">Home / ¿Quienes Somos? / Productos / Sucursales</div>
-<div id="apDiv6"><strong>Iniciar Sesión</strong></div>
+<div id="apDiv6"><strong>Iniciar Sesión</strong>
+</div>
 <div class="Estilo2" id="apDiv7">Usuario:</div>
 <div id="apDiv8">
   <label>
@@ -172,11 +282,35 @@ body,td,th {
   <input type="password" name="contrasena" id="contrasena" />
   </label>
 </div>
-<div id="apDiv11"></div>
+<div id="apDiv11">
+<div align="center">
+  <iframe frameborder="NO" height="375" marginheight="0" marginwidth="0" scrolling="YES" src="Panel/Panel.html" style="border-color: black; border-style: solid; border-width: 5;" width="1100">
+  </iframe>
+    </div>
+</div>
 <div id="apDiv12"><img src="../Imagenes/barra_menu.png" alt="" width="100%" height="47" /></div>
-<div id="apDiv13"></div>
 <div id="apDiv14"></div>
 <div id="apDiv15"></div>
-<div id="apDiv16"></div>
+<div id="apDiv16"><img src="../Imagenes/ucab.png" alt="ucab" width="127" height="151" /></div>
+<div id="apDiv17">
+  <p align="center"><span class="Estilo3"><span class="Estilo4"><span class="Estilo5"><span class="Estilo6"><strong>Teléfonos:</strong> 0212-234.23.32 / 0212.374.44.23</span></span></span></span></p>
+  <p align="center" class="Estilo7"><strong>Correo: </strong>info@marketvenezuela.com</p>
+  <p align="center" class="Estilo7">Todos los Derechos Reservados - 2016</p>
+</div>
+<div id="apDiv18"><strong>Desarrollo y Mantenimiento: Garry Jr Bruno M. / Mario Santana / Jose F. Hernández</strong></div>
+<div id="apDiv19"><img src="../Imagenes/publi1.png" alt="oferta1" width="404" height="237" /></div>
+<div id="apDiv20"><img src="../Imagenes/publi2.png" alt="publi2" width="402" height="237" /></div>
+<div class="Estilo2" id="apDiv22">
+  <div align="center">¿No tienes cuenta?</div>
+</div>
+<div id="apDiv23">
+  <div align="center" class="Estilo2"><a href="http://www.google.co.ve">Registrate</a></div>
+</div>
+<div id="apDiv26">
+  <input type="button" name="iniciarsesion" id="iniciarsesion" value="Iniciar Sesion" />
+</div>
+<div id="apDiv27"><img src="../Imagenes/publi3.png" alt="publi3" width="100%" height="474" /></div>
+<div id="apDiv28"><img src="../Imagenes/publi4.png" alt="publi4" width="404" height="237" /></div>
+<div id="apDiv29"><img src="../Imagenes/publi5.png" alt="publi5" width="404" height="237" /></div>
 </body>
 </html>
