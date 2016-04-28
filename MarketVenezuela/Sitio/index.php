@@ -1,10 +1,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Market Venezuela</title>
 <style type="text/css">
 <!--
+@media screen and (min-width: 0px) {
+  div#mydiv{
+	width:500px;
+	margin:0px auto;
+	height:100px; 
+	background: #D5E600;
+	font-size:27px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  div#mydiv{
+	width:900px;
+	margin:0px auto;
+	height:100px; 
+	background: #D5E600;
+	font-size:27px;
+  }
+}
 #apDiv1 {
 	position:absolute;
 	left:0px;
