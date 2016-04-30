@@ -11,7 +11,7 @@
   RewriteCond %{REQUEST_URI} !assets
 
   # don't apply the AI behaviour to images inside AI's cache folder:
-  RewriteCond %{REQUEST_URI} !ai-cache
+  RewriteCond %{REQUEST_URI} !../Sitio/adaptive-images/ai-cache
     
   # Send any GIF, JPG, or PNG request that IS NOT stored inside one of the above directories
   # to adaptive-images.php so we can select appropriately sized versions
