@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../Sitio/css/media-queries.css" type="text/css">
 </head>
 
+    
 <body>
 <div id="apDiv1"><img src="../Sitio/Imagenes/barra_azul.png" width="100%" height="214" /></div>
 <div id="apDiv2"><img src="../Sitio/Imagenes/Logo - Proyecto.png" width="202" height="198" /></div>
