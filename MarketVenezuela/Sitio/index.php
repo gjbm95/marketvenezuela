@@ -8,12 +8,13 @@
 <link rel="stylesheet" href="../Sitio/css/media-queries.css" type="text/css">
 </head>
 
+    
 <body>
 <div id="apDiv1"><img src="../Sitio/Imagenes/barra_azul.png" width="100%" height="214" /></div>
-<div id="apDiv2"><img src="../Sitio/Imagenes/Logo - Proyecto.png" width="202" height="198" /></div>
+<div id="apDiv2"><a href="index.php"><img src="../Sitio/Imagenes/Logo - Proyecto.png" width="202" height="198" /></a></div>
 <div id="apDiv3"><img src="../Sitio/Imagenes/barra_menu.png" width="100%" height="39" /></div>
 <div id="apDiv4"><img src="../Sitio/Imagenes/barra_menu.png" width="100%" height="191" /></div>
-<div class="Estilo1" id="apDiv5">Home / ¿Quienes Somos? / Productos / Sucursales</div>
+<div class="Estilo1" id="apDiv5"><a href="index.php">Home</a> / ¿Quienes Somos? / Productos / Sucursales</div>
 <div id="apDiv6"><strong>Iniciar Sesión</strong>
 </div>
 <div class="Estilo2" id="apDiv7">Usuario:</div>
@@ -39,7 +40,7 @@
 <div id="apDiv15"></div>
 <div id="apDiv16"><img src="../Sitio/Imagenes/ucab.png" alt="ucab" width="127" height="151" /></div>
 <div id="apDiv17">
-  <p align="center"><span class="Estilo3"><span class="Estilo4"><span class="Estilo5"><span class="Estilo6"><strong>Teléfonos:</strong> 0212-234.23.32 / 0212.374.44.23</span></span></span></span></p>
+  <p align="center"><span class="Estilo3"><span class="Estilo4"><span class="Estilo5"><span class="Estilo6"><strong>Teléfonos:</strong> 0212-234.23.32 / 0212-374.44.23</span></span></span></span></p>
   <p align="center" class="Estilo7"><strong>Correo: </strong>info@marketvenezuela.com</p>
   <p align="center" class="Estilo7">Todos los Derechos Reservados - 2016</p>
 </div>
@@ -50,10 +51,12 @@
   <div align="center">¿No tienes cuenta?</div>
 </div>
 <div id="apDiv23">
-  <div align="center" class="Estilo2"><a href="http://www.google.co.ve">Registrate</a></div>
+  <div align="center" class="Estilo2"><a href="registro.php">Registrate</a></div>
 </div>
 <div id="apDiv26">
-  <input type="button" name="iniciarsesion" id="iniciarsesion" value="Iniciar Sesion" />
+<form id="form13" name="form13" method="post" action="perfil_cliente.php">
+  <input type="submit" name="iniciarsesion" id="iniciarsesion" value="Iniciar Sesion" />
+  </form>
 </div>
 <div id="apDiv27"><img src="../Sitio/Imagenes/publi3.png" alt="publi3" width="100%" height="474" /></div>
 <div id="apDiv28"><img src="../Sitio/Imagenes/publi4.png" alt="publi4" width="404" height="237" /></div>
